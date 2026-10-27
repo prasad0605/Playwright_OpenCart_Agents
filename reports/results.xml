@@ -1,0 +1,10 @@
+<testsuites id="" name="" tests="1" failures="0" skipped="0" errors="0" time="8.495701">
+<testsuite name="web\customer-shopping-journey.spec.ts" timestamp="2026-10-27T04:20:18.574Z" hostname="chromium" tests="1" failures="0" skipped="0" time="5.956" errors="0">
+<testcase name="Customer registration through shopping cart journey @master @sanity @end-to-end @web" classname="web\customer-shopping-journey.spec.ts" time="5.956">
+<system-out>
+<![CDATA[✅ Customer registration, authentication, and shopping journey completed successfully.
+]]>
+</system-out>
+</testcase>
+</testsuite>
+</testsuites>
