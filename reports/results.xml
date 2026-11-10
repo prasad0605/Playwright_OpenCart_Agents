@@ -1,10 +1,69 @@
-<testsuites id="" name="" tests="1" failures="0" skipped="0" errors="0" time="8.495701">
-<testsuite name="web\customer-shopping-journey.spec.ts" timestamp="2026-10-27T04:20:18.574Z" hostname="chromium" tests="1" failures="0" skipped="0" time="5.956" errors="0">
-<testcase name="Customer registration through shopping cart journey @master @sanity @end-to-end @web" classname="web\customer-shopping-journey.spec.ts" time="5.956">
+<testsuites id="" name="" tests="1" failures="0" skipped="0" errors="1" time="11.138374">
+<testsuite name="web/customer-shopping-journey.spec.ts" timestamp="2026-11-09T11:22:23.486Z" hostname="chromium" tests="1" failures="0" skipped="0" time="0.019" errors="1">
+<testcase name="Customer registration through shopping cart journey @master @sanity @end-to-end @web" classname="web/customer-shopping-journey.spec.ts" time="0.019">
 <system-out>
-<![CDATA[✅ Customer registration, authentication, and shopping journey completed successfully.
+<![CDATA[
+[[ATTACHMENT|../test-results/web-customer-shopping-jour-699ae-aster-sanity-end-to-end-web-chromium/error-context.md]]
+
+[[ATTACHMENT|../test-results/web-customer-shopping-jour-699ae-aster-sanity-end-to-end-web-chromium-retry1/error-context.md]]
+
+[[ATTACHMENT|../test-results/web-customer-shopping-jour-699ae-aster-sanity-end-to-end-web-chromium-retry1/trace.zip]]
+
+[[ATTACHMENT|../test-results/web-customer-shopping-jour-699ae-aster-sanity-end-to-end-web-chromium-retry2/error-context.md]]
 ]]>
 </system-out>
+<error message="browserType.launch: Executable doesn&apos;t exist at /ms-playwright/chromium-1243/chrome-linux64/chrome" type="Error">
+<![CDATA[  [chromium] › web/customer-shopping-journey.spec.ts:18:5 › Customer registration through shopping cart journey @master @sanity @end-to-end @web 
+
+    Error: browserType.launch: Executable doesn't exist at /ms-playwright/chromium-1243/chrome-linux64/chrome
+    ╔════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright was just updated to 1.63.0.      ║
+    ║ Please update docker image as well.                    ║
+    ║ -  current: mcr.microsoft.com/playwright:v1.62.0-noble ║
+    ║ - required: mcr.microsoft.com/playwright:v1.63.0-noble ║
+    ║                                                        ║
+    ║ <3 Playwright Team                                     ║
+    ╚════════════════════════════════════════════════════════╝
+
+    Error Context: ../test-results/web-customer-shopping-jour-699ae-aster-sanity-end-to-end-web-chromium/error-context.md
+
+    Retry #1 ───────────────────────────────────────────────────────────────────────────────────────
+
+    Error: browserType.launch: Executable doesn't exist at /ms-playwright/chromium-1243/chrome-linux64/chrome
+    ╔════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright was just updated to 1.63.0.      ║
+    ║ Please update docker image as well.                    ║
+    ║ -  current: mcr.microsoft.com/playwright:v1.62.0-noble ║
+    ║ - required: mcr.microsoft.com/playwright:v1.63.0-noble ║
+    ║                                                        ║
+    ║ <3 Playwright Team                                     ║
+    ╚════════════════════════════════════════════════════════╝
+
+    Error Context: ../test-results/web-customer-shopping-jour-699ae-aster-sanity-end-to-end-web-chromium-retry1/error-context.md
+
+    attachment #2: trace (application/zip) ─────────────────────────────────────────────────────────
+    ../test-results/web-customer-shopping-jour-699ae-aster-sanity-end-to-end-web-chromium-retry1/trace.zip
+    Usage:
+
+        npx playwright show-trace ../test-results/web-customer-shopping-jour-699ae-aster-sanity-end-to-end-web-chromium-retry1/trace.zip
+
+    ────────────────────────────────────────────────────────────────────────────────────────────────
+
+    Retry #2 ───────────────────────────────────────────────────────────────────────────────────────
+
+    Error: browserType.launch: Executable doesn't exist at /ms-playwright/chromium-1243/chrome-linux64/chrome
+    ╔════════════════════════════════════════════════════════╗
+    ║ Looks like Playwright was just updated to 1.63.0.      ║
+    ║ Please update docker image as well.                    ║
+    ║ -  current: mcr.microsoft.com/playwright:v1.62.0-noble ║
+    ║ - required: mcr.microsoft.com/playwright:v1.63.0-noble ║
+    ║                                                        ║
+    ║ <3 Playwright Team                                     ║
+    ╚════════════════════════════════════════════════════════╝
+
+    Error Context: ../test-results/web-customer-shopping-jour-699ae-aster-sanity-end-to-end-web-chromium-retry2/error-context.md
+]]>
+</error>
 </testcase>
 </testsuite>
 </testsuites>
